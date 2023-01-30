@@ -1,0 +1,94 @@
+h1 {
+    text-align: center;
+}
+.col {
+    background-color: green;
+    border: 1px solid;
+    position: relative;
+    margin-right: 6px;
+}
+@media (min-width : 992px) {
+    .col-lg-4 {
+        width:32.33%;
+        float: left;
+    }
+}
+@media (min-width: 768px) and (max-width : 991px) {
+.col-md-6 {
+    width: 49%;
+    float: left;
+    margin-top: 6px;
+}
+.fruits {
+    position: absolute !important;
+    padding-left: 2px !important;
+    top: -0.5px !important;
+    right: 0px !important;
+}
+.veg {
+    position: absolute !important;
+    margin-left: 199px !important;
+    padding-left: 2px !important;
+    top: 0.5px !important;
+}
+.juice {
+    position: absolute !important;
+    margin-left: 797px !important;
+    padding-left: 4px !important;
+}
+.juice-section {
+    width: 99%;
+}
+.fruit-section {
+    height: 124px;
+}
+}
+@media (max-width: 767px) {
+.col-xs-12 {
+    width: 100%;
+    float: left;
+    margin-top: 6px;
+}
+}
+.sentence {
+    padding-left: 5px;
+    padding-top: 20px;
+}
+.ml-pl {
+    margin-block-start: 0px;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+} 
+.fruits {
+    position: static;
+    background-color: red;
+    margin-left: 262px;
+    padding-left: 3px;
+    padding-right: 4px
+}
+.veg {
+    position: static;
+    background-color: blueviolet;
+    margin-left: 226px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.juice {
+    position: static;
+    background-color: blue;
+    margin-left: 276px;
+    padding-left: 4px;
+    padding-right: 4px;
+    top: 169px;
+    right: 9px;
+}
+#fruit-container,
+#veg-container,
+#juice-container {
+position: relative;
+}
+#fruit-container h2, #veg-container h2, #juice-container h2  {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
